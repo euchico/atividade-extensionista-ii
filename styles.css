@@ -1,0 +1,116 @@
+/* Estilos globais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+h1, h2 {
+    color: #FF6F00;
+    margin: 0;
+}
+
+h1 span {
+    color: #FF6F00;
+}
+
+p {
+    color: #333;
+}
+
+/* Navbar */
+header {
+    background-color: #f0f0f0;
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #FF6F00;
+}
+
+/* Seção Adote */
+.adote {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.adote .content {
+    max-width: 50%;
+}
+
+.adote .description {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.adote .description img {
+    width: 50px;
+    margin-right: 20px;
+}
+
+.adote .image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50px;
+    clip-path: ellipse(75% 50% at 50% 50%);
+}
+
+/* Seção Aumente sua Família */
+.familia {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
+    background-color: #f0f0f0;
+    position: relative;
+}
+
+.familia .content {
+    max-width: 50%;
+}
+
+.familia .description {
+    margin-top: 20px;
+}
+
+.familia .item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.familia .item img {
+    width: 50px;
+    margin-right: 20px;
+}
+
+.familia .image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50px;
+    clip-path: ellipse(75% 50% at 50% 50%);
+}
